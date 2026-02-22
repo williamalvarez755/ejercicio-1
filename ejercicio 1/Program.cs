@@ -94,6 +94,9 @@ if (edad > 0 && edad <= 120 && temp >= 30 && temp <= 45 &&oxigeno >= 0 && oxigen
                 Console.WriteLine("Acción sugerida: Evaluación médica programada");
             }
             break;
+            default:
+            Console.WriteLine("Opción no válida");
+            break;
     }
 }
 else
